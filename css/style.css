@@ -124,6 +124,32 @@ body{
     box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.578);
     color:aliceblue;
 }
+.grid-content .btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    position:absolute;
+    top:0;
+    background:none;
+    height: 60px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    font-size:18px;
+    border: none;
+    font-family: lineseed;
+    transition: all 0.3s;
+}
+.grid-content .btn1:hover{
+    transform:scale(1.1,1.1);
+    transform: translate(0px, -20px);
+    background-color: black;
+    /*filter: drop-shadow(30px 10px 0px #9c5b5b5c);*/
+    box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.578);
+    color:rgb(255, 255, 255);
+}
 .lf{
     font-family: lineseed;
 }
