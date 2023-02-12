@@ -26,6 +26,7 @@ body{
     text-align: center;
     margin-top:30px;
     color: aliceblue;
+    cursor: context-menu;
 }
 .header h1{
     font-size: 80px;
@@ -53,12 +54,14 @@ body{
     object-fit: cover;
     object-position: 0% 10%;
     border-radius: 100%;
+    cursor: context-menu;
 }
 .content{
     margin-top:50px;
     width: 100%;
     height: auto;
     background: none;
+    cursor: context-menu;
 }
 .grid{
     display: grid;
@@ -145,7 +148,13 @@ body{
 .grid-content .btn1:hover{
     transform:scale(1.1,1.1);
     transform: translate(0px, -20px);
-    background-color: black;
+    position: absolute;
+    background: linear-gradient(124deg, #000000, #888888, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
     /*filter: drop-shadow(30px 10px 0px #9c5b5b5c);*/
     box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.578);
     color:rgb(255, 255, 255);
@@ -196,3 +205,23 @@ footer{
         8px 8px 0px #90B1E0;
     }
 }
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+} 
