@@ -43,9 +43,14 @@ body{
     12px 12px 0px #EF5097, 
     13px 13px 0px #6868AC, 
     14px 14px 0px #90B1E0;
+    transition: all 0.3s;
+}
+.header h2{
+    transition: all 0.3s;
 }
 .header h3{
     color: rgb(127, 127, 255);
+    transition: all 0.3s;
 }
 
 .logo img{
@@ -55,6 +60,7 @@ body{
     object-position: 0% 10%;
     border-radius: 100%;
     cursor: context-menu;
+    transition: all 0.3s;
 }
 .content{
     margin-top:50px;
@@ -62,6 +68,7 @@ body{
     height: auto;
     background: none;
     cursor: context-menu;
+    transition: all 0.3s;
 }
 .grid{
     display: grid;
@@ -118,7 +125,7 @@ body{
     font-size:18px;
     border: none;
     background-color: red;
-    transition: transform 0.3s, box-shadow 0.3s,filter 0.3s,color 0.3s;
+    transition: all 0.3s;
 }
 .grid-content .btn:hover{
     transform:scale(1.1,1.1);
@@ -179,6 +186,13 @@ footer{
         height: 20px;
     }
     .grid-content .btn{
+        position:absolute;
+        top:-50px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-content .btn1{
         position:absolute;
         top:-50px;
         width: 300px;
