@@ -149,7 +149,7 @@ body{
     background-color: white;
     font-size:18px;
     border: none;
-    font-family: lineseed;
+    font-family: Lineseed;
     transition: all 0.3s;
 }
 .grid-content .btn1:hover{
@@ -159,7 +159,7 @@ body{
     background: linear-gradient(124deg, #000000, #888888, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
     -webkit-animation: rainbow 18s ease infinite;
-    -z-animation: rainbow 18s ease infinite;
+    -moz-animation: rainbow 18s ease infinite;;
     -o-animation: rainbow 18s ease infinite;
     animation: rainbow 18s ease infinite;
     /*filter: drop-shadow(30px 10px 0px #9c5b5b5c);*/
@@ -167,7 +167,44 @@ body{
     color:rgb(255, 255, 255);
 }
 .lf{
-    font-family: lineseed;
+    font-family: Lineseed;
+}
+.content2{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    width: 700px;
+    height: 900px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.7px);
+    -webkit-backdrop-filter: blur(7.7px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.glass .imgdonate{
+    border-radius: 20px;
+    margin-bottom:50px;
+    width:400px;
+}
+.glass > h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: Lineseed;
+    background: linear-gradient(90deg, rgb(5, 0, 100) 0%, rgba(9,121,101,1) 22%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: filter 0.3s;
 }
 footer{
     height: 80px;
@@ -217,6 +254,15 @@ footer{
         6px 6px 0px #EF5097, 
         7px 7px 0px #6868AC, 
         8px 8px 0px #90B1E0;
+    }
+    .glass{
+        height: 700px;
+    }
+    .glass .imgdonate{
+        width:250px;
+    }
+    .glass > h1{
+        font-size: 70px;
     }
 }
 @-webkit-keyframes rainbow {
