@@ -154,7 +154,39 @@
     transform:scale(1.1,1.1);
     transform: translate(0px, -20px);
     position: absolute;
-    background: linear-gradient(124deg, #000000, #888888, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background: linear-gradient(124deg, #ffffff, #888888, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -moz-animation: rainbow 18s ease infinite;;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+    /*filter: drop-shadow(30px 10px 0px #9c5b5b5c);*/
+    box-shadow: 0px 2px 7px 5px rgba(0, 0, 0, 0.578);
+    color:rgb(255, 255, 255);
+}
+.grid-content .btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    position:absolute;
+    top:0;
+    background:none;
+    height: 60px;
+    width: 500px;
+    border-radius: 30px;
+    background-color: white;
+    font-size:18px;
+    border: none;
+    font-family: Lineseed;
+    transition: all 0.3s;
+}
+.grid-content .btn2:hover{
+    transform:scale(1.1,1.1);
+    transform: translate(0px, -20px);
+    position: absolute;
+    background: linear-gradient(124deg,#e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     background-size: 1800% 1800%;
     -webkit-animation: rainbow 18s ease infinite;
     -moz-animation: rainbow 18s ease infinite;;
