@@ -13,6 +13,7 @@
 }
 .background{
     width: 100%;
+    background-size: cover;
     height: 100%;
 }
 .header{
@@ -260,6 +261,13 @@ footer{
         align-items: center;
     }
     .grid-content .btn1{
+        position:absolute;
+        top:-50px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-content .btn2{
         position:absolute;
         top:-50px;
         width: 300px;
