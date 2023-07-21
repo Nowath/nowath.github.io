@@ -11,6 +11,9 @@
 ::-webkit-scrollbar{
     width: 0px;
 }
+.finisher-header{
+    background-attachment: fixed;
+}
 .background{
     width: 100%;
     background-size: cover;
