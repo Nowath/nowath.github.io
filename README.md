@@ -1,2 +1,2 @@
 # Bio
-https://nowath.github.io/Bio/
+https://nowath.github.io/
