@@ -91,11 +91,29 @@
                         </div>
                         <div class="grid-content">
                             <a
-                                href="./Donate.html"
+                                href="#"
                                 class="btn2"
                                 style="background-color: rgb(255, 251, 7)"
-                                ><h3>Donate</h3></a
+                                onclick="Donatef()"
                             >
+                                <h3>Donate</h3>
+                                <div class="docon" id="donate-content">
+                                    <div class="donateimg">
+                                        <img
+                                            src="./img/Donate.jpg"
+                                            width="250px"
+                                            alt=""
+                                        />
+                                        <p>Thank you</p>
+                                    </div>
+                                    <center
+                                        onclick="copy()"
+                                        style="text-decoration: underline"
+                                    >
+                                        <p>116-8-90521-8</p>
+                                    </center>
+                                </div>
+                            </a>
                         </div>
                         <div class="grid-content">
                             <a
@@ -115,5 +133,6 @@
             type="text/javascript"
         ></script>
         <script src="./src/app.js"></script>
+        <script src="./src/donate.js"></script>
     </body>
 </html>
